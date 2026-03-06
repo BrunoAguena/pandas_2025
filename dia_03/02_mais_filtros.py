@@ -6,6 +6,9 @@ df
 
 # %%
 
+df["IdProduto"]
+
+# %%
 filtro = (df["IdProduto"] == 5) | (df["IdProduto"] == 11)
 df[filtro]
 
